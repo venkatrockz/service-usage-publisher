@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+
+usage:
+  tracker:
+    topic-id: service-usage-tracker-feed
